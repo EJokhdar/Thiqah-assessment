@@ -6,7 +6,7 @@ s3 = boto3.client('s3',
                   aws_access_key_id="ASK FOR KEY",
                   aws_secret_access_key="ASK FOR KEY")
 
-engine = create_engine("postgresql://postgres:postgrespw@localhost:32768", echo=True)
+engine = create_engine("ASK FOR KEY", echo=True)
 
 Base = declarative_base()
 
